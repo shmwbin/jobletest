@@ -9,7 +9,14 @@ TARGET_URLS = [
     "https://www.freejobalert.com/wb-government-jobs/",
     "https://www.exambangla.com/category/job-update/",
     "https://www.anandabazar.com/employment",
-    "https://www.naukri.com/jobs-in-west-bengal",
+    "https://www.mysarkarinaukri.com/",
+    "https://jobbarta.com/",
+    "https://www.bengaljobportal.com/",
+    "https://north24parganas.gov.in/past-notices/recruitment/",
+    "https://www.westbengalcareers.com/role/deo-jobs-in-west-bengal/",
+    "https://prb.wb.gov.in/recruitments",
+    "https://allgovernmentjobs.in/data-entry-operator-jobs-in-west-bengal-936028-3685",
+    "https://west-bengal.20govt.com/",
     "https://employmentnews.gov.in/NewEmp/Home.aspx"
 ]
 
