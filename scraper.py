@@ -11,10 +11,12 @@ TARGET_URLS = [
     "https://www.anandabazar.com/employment",
     "https://www.mysarkarinaukri.com/",
     "https://jobbarta.com/",
-    "https://www.bengaljobportal.com/",
+    "https://www.bengaljobportal.com",
+    "https://www.westbengalcareers.com",
     "https://north24parganas.gov.in/past-notices/recruitment/",
     "https://www.westbengalcareers.com/role/deo-jobs-in-west-bengal/",
     "https://prb.wb.gov.in/recruitments",
+    "https://www.sahisarkarijobs.in/state/west-bengal-govt-jobs/",
     "https://allgovernmentjobs.in/data-entry-operator-jobs-in-west-bengal-936028-3685",
     "https://west-bengal.20govt.com/",
     "https://employmentnews.gov.in/NewEmp/Home.aspx"
