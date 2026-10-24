@@ -10,7 +10,6 @@ TARGET_URLS = [
     "https://www.exambangla.com/category/job-update/",
     "https://www.anandabazar.com/employment",
     "https://www.naukri.com/jobs-in-west-bengal",
-    "https://wb.indgovtjobs.net/",
     "https://employmentnews.gov.in/NewEmp/Home.aspx"
 ]
 
