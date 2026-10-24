@@ -6,7 +6,12 @@ from datetime import datetime
 # Target Job Portals for West Bengal & IT/Computer Operator roles
 TARGET_URLS = [
     "https://www.karmasandhan.com/jobs/state/west-bengal/",
-    "https://www.freejobalert.com/wb-government-jobs/"
+    "https://www.freejobalert.com/wb-government-jobs/",
+    "https://www.exambangla.com/category/job-update/",
+    "https://www.anandabazar.com/employment",
+    "https://www.naukri.com/jobs-in-west-bengal",
+    "https://wb.indgovtjobs.net/",
+    "https://employmentnews.gov.in/NewEmp/Home.aspx"
 ]
 
 headers = {
@@ -32,7 +37,6 @@ def hunt_and_extract_jobs():
             if response.status_code == 200:
                 soup = BeautifulSoup(response.text, 'html.parser')
                 
-                # Example parsing logic for listing items (can be customized per site structure)
                 # Ekhane amra job titles and links gulo khujchi
                 for item in soup.find_all(['h2', 'h3', 'a'], limit=25):
                     text = item.get_text(strip=True)
@@ -71,4 +75,4 @@ def hunt_and_extract_jobs():
     print(f"Hunting completed! Added {len(newly_hunted_jobs)} new jobs dynamically.")
 
 if __name__ == "__main__":
-    hunt_and_export = hunt_extract_jobs() if 'hunt_extract_jobs' in locals() else hunt_and_extract_jobs()
+    hunt_and_extract_jobs()
